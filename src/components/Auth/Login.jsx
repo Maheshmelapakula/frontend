@@ -32,7 +32,7 @@ const Login = () => {
       dispatch(registerAction(requestData))
         .then(() => {
           // handle successful registration
-          navigate('/onboard-doctor');
+          navigate('/onboard-doctor')
         })
         .catch((error) => {
           console.error(error);
